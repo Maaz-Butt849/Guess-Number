@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.main {
+    background-color: gray;
+    max-width: max-content;
+    margin: 50px auto;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.form h2 {
+    font-size: 50px;
+
+}
+
+.guess-field {
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.submit {
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.results-parameter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
